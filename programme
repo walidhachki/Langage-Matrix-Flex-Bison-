@@ -1,0 +1,12 @@
+BEGIN
+
+A := [(3,4),(6,3)];
+B := [(1,0),(0,2)];
+C := A + B;
+D := C * (B - C);
+E := C ^ 2;
+afficher(C);
+afficher(D);
+afficher(E);
+
+FIN.
